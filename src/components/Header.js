@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from './Nav';
 import '../App.css'
 import image from '../Images/texturedbackground.jpg'
 

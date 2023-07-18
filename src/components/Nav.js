@@ -1,11 +1,15 @@
 import React from 'react';
 import '../App.css'
 
-export default function Nav() {
+
+export default function Nav({ currentContent, handleContentChange}) {
     return (
         <ul className="navbar">
             <li className="nav-item">
-                <a href="#About Me">About Me</a>
+                <a href="#About Me"
+                onClick={()=> handleContentChange('About')}
+                className={currentContent === 'About' ? 'nav-link active' : 'nav-link'}
+                >About Me</a>
             </li>
             <li className="nav-item">
                 <a href="#portfolio">Portfolio</a>

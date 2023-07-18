@@ -12,13 +12,22 @@ export default function Nav({ currentContent, handleContentChange}) {
                 >About Me</a>
             </li>
             <li className="nav-item">
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio"
+                onClick={()=> handleContentChange('Portfolio')}
+                className={currentContent === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                >Portfolio</a>
             </li>
             <li className="nav-item">
-                <a href="#Contact">Contact</a>
+                <a href="#Contact"
+                onClick={()=> handleContentChange('Contact')}
+                className={currentContent === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >Contact</a>
             </li>
             <li className="nav-item">
-                <a href="#Resume">Resume</a>
+                <a href="#Resume"
+                onClick={()=> handleContentChange('Resume')}
+                className={currentContent === 'Resume' ? 'nav-link active' : 'nav-link'}
+                >Resume</a>
             </li>
         </ul>
     );

@@ -30,7 +30,7 @@ export default function ContentContainer() {
       <Header>
         <Nav currentContent={currentContent} handleContentChange={handleContentChange} />
       </Header>
-      {renderContent}
+      {renderContent()}
     </div>
   );
 }

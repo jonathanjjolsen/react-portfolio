@@ -1,6 +1,9 @@
 import React from 'react';
-import empTrack from '../../Images/employeeTracker.jpeg'
-import jateText from '../../Images/jateText.jpeg'
+import empTrack from '../../Images/employeeTracker.jpg'
+import jateText from '../../Images/jateText.jpg'
+import logoGen from '../../Images/logoGen.jpg'
+import passGen from '../../Images/passwordGen.jpg'
+import tradeHub from '../../Images/tradehub.jpg'
 
 export default function Projects() {
     return (
@@ -15,13 +18,13 @@ export default function Projects() {
                         <img className='image' src={jateText} />
                         <p className='projectp'>Just&nbsp;Another&nbsp;Text&nbsp;Editor</p>
                     </div><div className='Card'>
-                        <img className='image' src={empTrack} />
+                        <img className='image' src={logoGen} />
                         <p className='projectp'>Project 1</p>
                     </div><div className='Card'>
-                        <img className='image' src={empTrack} />
+                        <img className='image' src={passGen} />
                         <p className='projectp'>Project 1</p>
                     </div><div className='Card'>
-                        <img className='image' src={empTrack} />
+                        <img className='image' src={tradeHub} />
                         <p className='projectp'>Project 1</p>
                     </div>
                 </div>

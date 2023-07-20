@@ -90,7 +90,7 @@ a {
 
 img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;

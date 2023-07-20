@@ -68,11 +68,11 @@ a {
     flex-direction: column;
 }
 
-.projectLabel {
+.projectp {
     position: relative;
     font-size: xx-large;
-    /* visibility: hidden; */
-    right: 58%;
+    visibility: hidden;
+    right: 80%;
 }
 
 .projects {
@@ -90,7 +90,7 @@ a {
 
 img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
@@ -98,9 +98,9 @@ img {
 
 .Card:hover {
     .image {
-        filter: blur(4px);
+        opacity: 0.6;
     }
-    .projectLabel {
+    .projectp {
         filter: none;
         visibility: visible;
     }

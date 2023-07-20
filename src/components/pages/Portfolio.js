@@ -19,13 +19,13 @@ export default function Projects() {
                         <p className='projectp'>Just&nbsp;Another&nbsp;Text&nbsp;Editor</p>
                     </div><div className='Card'>
                         <img className='image' src={logoGen} />
-                        <p className='projectp'>Project 1</p>
+                        <p className='projectp'>Logo&nbsp;Generator</p>
                     </div><div className='Card'>
                         <img className='image' src={passGen} />
-                        <p className='projectp'>Project 1</p>
+                        <p className='projectp'>Password&nbsp;Generator</p>
                     </div><div className='Card'>
                         <img className='image' src={tradeHub} />
-                        <p className='projectp'>Project 1</p>
+                        <p className='projectp'>TradeHub</p>
                     </div>
                 </div>
         </div>

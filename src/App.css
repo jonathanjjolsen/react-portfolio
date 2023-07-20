@@ -30,7 +30,7 @@ body {
     color: #66fcf1;
     padding-left: 5%;
     font-size: 50px;
-    
+
 }
 
 .navbar {
@@ -63,7 +63,7 @@ a {
     flex-wrap: wrap;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
@@ -71,6 +71,8 @@ a {
 .projectLabel {
     position: relative;
     font-size: xx-large;
+    /* visibility: hidden; */
+    right: 58%;
 }
 
 .projects {
@@ -86,10 +88,20 @@ a {
     padding-top: 3%;
 }
 
-img { 
+img {
     width: 100%;
     object-fit: cover;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
+}
+
+.Card:hover {
+    .image {
+        filter: blur(4px);
+    }
+    .projectLabel {
+        filter: none;
+        visibility: visible;
+    }
 }

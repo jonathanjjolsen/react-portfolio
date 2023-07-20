@@ -7,20 +7,20 @@ export default function Projects() {
                 <h2>Portfolio</h2>
                 <div className='projects'>
                     <div className='Card'>
-                        <img src={empTrack} />
+                        <img className='image' src={empTrack} />
                         <label className='projectLabel'>Employee Database Tracker</label>
                     </div>
                     <div className='Card'>
-                        <img src={empTrack} />
+                        <img className='image' src={empTrack} />
                         <label className='projectLabel'>Project 1</label>
                     </div><div className='Card'>
-                        <img src={empTrack} />
+                        <img className='image' src={empTrack} />
                         <label className='projectLabel'>Project 1</label>
                     </div><div className='Card'>
-                        <img src={empTrack} />
+                        <img className='image' src={empTrack} />
                         <label className='projectLabel'>Project 1</label>
                     </div><div className='Card'>
-                        <img src={empTrack} />
+                        <img className='image' src={empTrack} />
                         <label className='projectLabel'>Project 1</label>
                     </div>
                 </div>

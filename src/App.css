@@ -53,7 +53,7 @@ a {
     font-size: x-large;
 }
 
-.box {
+.container {
     display: flex;
     min-height: 60%;
     max-width: 100%;

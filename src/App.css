@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+/* Styles that effect everything */
 body {
     margin: 0px;
     font-family: 'Quicksand';
     background-color: #7c7c7c;
     color: #ffffff;
+    font-size: 30px;
 }
 
 #root {
@@ -16,6 +18,7 @@ body {
 }
 
 
+/* Header Styling */
 .header {
     display: flex;
     flex-direction: row;
@@ -50,9 +53,15 @@ body {
 a {
     text-decoration: none;
     color: #66fcf1;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
+/* About Me Styling */
+.aboutContainer {
+    width: 80%;
+}
+
+/* Portfolio Styling */
 .container {
     display: flex;
     min-height: 60%;
@@ -72,8 +81,8 @@ a {
     position: relative;
     font-size: xx-large;
     visibility: hidden;
-    right: 80%;
-    top: 30%;
+    right: 60%;
+    top: 70%;
 }
 
 .projects {
@@ -97,6 +106,39 @@ img {
     border-width: 2px;
 }
 
+/* Contact Page Styling */
+.contactLabel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 60%;
+    padding: 1%;
+}
+
+.inputLabel {
+    padding-right: 1%;
+}
+
+#name {
+    width: 80%;
+}
+
+#email {
+    width: 80%;
+}
+
+#message {
+   width: 80%;
+   height: 200px;
+}
+
+.button {
+    width: 100%;
+    font-size: 24px;
+}
+
+
 .Card:hover {
     .image {
         opacity: 0.6;
@@ -104,5 +146,23 @@ img {
     .projectp {
         filter: none;
         visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 1299px){
+    .header{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .projectp{
+        font-size: large;
+    }
+    .contactLabel {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: x-large;
     }
 }

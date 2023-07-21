@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import Header from './Header';
 
 export default function ContentContainer() {
-  const [currentContent, setCurrentContent] = useState('Portfolio');
+  const [currentContent, setCurrentContent] = useState('Contact');
 
   const renderContent = () => {
     if (currentContent === 'Resume') {

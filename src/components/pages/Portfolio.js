@@ -24,7 +24,7 @@ export default function Projects() {
                         <img className='image' alt='Password Input Box' src={passGen} />
                         <p className='projectp'>Password&nbsp;Generator</p>
                     </div><div className='Card'>
-                        <img className='image' alt='Visual Schematic of Online Sales Interactions' src={tradeHub} />
+                        <img className='image' alt='Visual Schematic of Online Sales Interactionsv' src={tradeHub} />
                         <p className='projectp'>TradeHub</p>
                     </div>
                 </div>

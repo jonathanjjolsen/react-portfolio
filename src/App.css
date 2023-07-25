@@ -62,6 +62,12 @@ a {
     width: 80%;
 }
 
+.AVI {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
 /* Portfolio Styling */
 .container {
     display: flex;

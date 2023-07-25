@@ -1,4 +1,5 @@
 import React from 'react';
+import download from '../../Downloads/MockResume.pdf';
 
 export default function Resume() {
     return (
@@ -8,7 +9,7 @@ export default function Resume() {
                 <h1>Resume</h1>
             </div>
             <div>
-                <p>Download Full Resume<a href='' download> Here!</a></p>
+                <p>Download Full Resume<a href={download} download='Resume.pdf'> Here!</a></p>
             </div>
             <div>
                 <h2>Front-End Proficiencies</h2>
